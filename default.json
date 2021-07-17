@@ -1,0 +1,1885 @@
+{
+  "name": "Cletus",
+  "type": "character",
+  "img": "modules/cakdata/cak/characters/cleric1.png",
+  "data": {
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 12,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 6,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      }
+    },
+    "stats": {
+      "speed": {
+        "runningDie": 6,
+        "runningMod": 0,
+        "value": 6
+      },
+      "toughness": {
+        "value": 0,
+        "armor": 2,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 5,
+        "modifier": "0"
+      },
+      "size": 0
+    },
+    "details": {
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": "Human"
+      },
+      "currency": "1175",
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      },
+      "autoCalcToughness": true,
+      "autoCalcParry": true
+    },
+    "powerPoints": {
+      "value": 10,
+      "max": 15
+    },
+    "fatigue": {
+      "value": 0,
+      "min": 0,
+      "max": 2
+    },
+    "wounds": {
+      "value": 0,
+      "min": 0,
+      "max": 3,
+      "ignored": 0
+    },
+    "advances": {
+      "value": 25,
+      "rank": "Seasoned",
+      "details": "<p>Spirit to d10, Power Points, Powers, Powers, Spirit to d12</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "bennies": {
+      "value": 4,
+      "max": 3
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "additionalStats": {},
+    "wildcard": true
+  },
+  "token": {
+    "flags": {},
+    "name": "Cletus",
+    "displayName": 50,
+    "img": "modules/cakdata/cak/characters/cletus2.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0.5,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightColor": "#4bb2b9",
+    "lightAlpha": 0.04,
+    "lightAnimation": {
+      "type": "sunburst",
+      "speed": 2,
+      "intensity": 2
+    },
+    "actorId": "KL2hXT8tspar5V4j",
+    "actorLink": true,
+    "disposition": 0,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "wounds"
+    },
+    "bar2": {
+      "attribute": "powerPoints"
+    },
+    "randomImg": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "YthOV2y3Ymo5XbxP",
+      "name": "Notice",
+      "type": "skill",
+      "data": {
+        "description": "See SWADE p.32",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": ""
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/awareness.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "veAw8N7D5GnCeNll",
+      "name": "Persuasion",
+      "type": "skill",
+      "data": {
+        "description": "See SWADE p.33",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": ""
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "TvJMad8ZpUailzFC",
+      "name": "Stealth",
+      "type": "skill",
+      "data": {
+        "description": "See SWADE p.35",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": ""
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "cenBQ6cwixyNhGS7",
+      "name": "Untrained",
+      "type": "skill",
+      "data": {
+        "description": "See SWADE p.89",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": "-2"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/uncertainty.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "hTDiMugJ30YiKWxS",
+      "name": "Arcane Background (Miracles)",
+      "type": "edge",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<ul>\n<li>Arcane Skill: @Compendium[swade-core-rules.swade-skills.Faith]{Faith} (Spirit)</li>\n<li>Starting @Compendium[swade-core-rules.swade-rules.Powers]{Powers}: 3</li>\n<li>@Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points}: 10</li>\n</ul>\n<p><span class=\"fontstyle0\">Those who invoke miracles draw their power from a divine presence of some sort, including gods, nature, or spirits. Their powers are usually invoked with a few words of prayer or by performing established rituals. </span></p>\n<p><span class=\"fontstyle0\">Those who cast miracles are champions of their particular religions. They typically have @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrances} that pertain to their service, such as @Compendium[swade-core-rules.swade-hindrances.Vow]{Vow} or @Compendium[swade-core-rules.swade-hindrances.Obligation]{Obligation}. They might also have @Compendium[swade-core-rules.swade-edges.Connections]{Connections} to others of their religion who can help them out when their divine energies wane</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": true,
+        "requirements": {
+          "value": "Novice"
+        }
+      },
+      "sort": 700000,
+      "flags": {
+        "cf": {
+          "id": "temp_e7eeiuu1uj",
+          "path": "Edges#/CF_SEP/Background Edges",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-edges.gVSZx5NUtT0Xg8Jf"
+        }
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "GUZY2TegkN2gwXen",
+      "name": "Fighting",
+      "type": "skill",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Fighting covers all hand-to-hand (melee) attacks, whether it&rsquo;s with fists, axes, laser swords, or martial arts. See @Compendium[swade-core-rules.swade-rules.Combat]{Chapter Three} for the combat rules and the various maneuvers a warrior might attempt.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 800000,
+      "flags": {
+        "cf": {
+          "id": "temp_nsugutrpau",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.xCkOFlFmE1WwGXq6"
+        }
+      },
+      "img": "systems/swade/assets/icons/skills/punch.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "tEbYqnwpgGbb3K6q",
+      "name": "Shooting",
+      "type": "skill",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Shooting covers all attempts to hit a target with a ranged weapon such as a bow, pistol, or rocket launcher (thrown weapons use @Compendium[swade-core-rules.swade-skills.★ Athletics]{Athletics}). See @Compendium[swade-core-rules.swade-rules.Combat]{Chapter Three} for details on ranged combat.</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 900000,
+      "flags": {
+        "cf": {
+          "id": "temp_nsugutrpau",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.5hIUuseJglH1bUnz"
+        }
+      },
+      "img": "systems/swade/assets/icons/skills/crosshair.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "WYyCsPvMRufpQgvQ",
+      "name": "Riding",
+      "type": "skill",
+      "data": {
+        "description": "<div class=\"swade-core\"><p>Riding allows a hero to mount, control, and ride any beast or beast-drawn vehicle common to his setting. This includes horses, camels, dragons, wagons, chariots, and the like. See @Compendium[swade-core-rules.swade-rules.Mounted Combat]{Mounted Combat}.</p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 1000000,
+      "flags": {
+        "cf": {
+          "id": "temp_nsugutrpau",
+          "path": "Skills",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-skills.GbtBgL3WJNN3SBlm"
+        }
+      },
+      "img": "systems/swade/assets/icons/skills/saddle.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VtNlAwzn2V4WCCOz",
+      "name": "Clueless",
+      "type": "hindrance",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p><span class=\"fontstyle0\">Your hero doesn&rsquo;t pay much attention to the world around him and can&rsquo;t seem to find a haystack in a small pile of needles. He suffers a -1 @Compendium[swade-core-rules.swade-rules.Trait Rolls]{penalty} to @Compendium[swade-core-rules.swade-skills.★ Common Knowledge]{Common Knowledge} and @Compendium[swade-core-rules.swade-skills.★ Notice]{Notice} rolls.</span></p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": true
+      },
+      "sort": 1200000,
+      "flags": {
+        "cf": {
+          "id": "temp_d3elgscv5kj",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-hindrances.6sVQ2mbkjwo3ANGO"
+        }
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "eZrfkLFNGOD3UMuT",
+      "name": "Loyal",
+      "type": "hindrance",
+      "data": {
+        "description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This stalwart defender risks her life for her friends without hesitation. Some Loyal heroes may not </span><span class=\"fontstyle2\">act </span><span class=\"fontstyle0\">that way, but are the first to come to their friends&rsquo; rescue when they&rsquo;re threatened.</span></p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false
+      },
+      "sort": 1300000,
+      "flags": {
+        "cf": {
+          "id": "temp_d3elgscv5kj",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-hindrances.9NdXyRvT8uGXmi33"
+        }
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "IwrusLgLN2vw5epR",
+      "name": "Quirk",
+      "type": "hindrance",
+      "data": {
+        "description": "<div class=\"swade-core\"><p><span class=\"fontstyle0\">This individual has some minor foible that is usually humorous but can occasionally cause him real trouble. A swashbuckler may always try to slash his initials on his foes, a dwarf may brag constantly about his culture, or a snobby d&eacute;butante might not eat, drink, or socialize with the lower class, for example.</span></p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "major": false
+      },
+      "sort": 1400000,
+      "flags": {
+        "cf": {
+          "id": "temp_d3elgscv5kj",
+          "path": "Hindrances",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-hindrances.1kDpqwcy4aGTbXFD"
+        }
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "oPWhM2ScAUF5RDWa",
+      "name": "Healing",
+      "type": "power",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p><em><span class=\"fontstyle0\">Healing </span></em><span class=\"fontstyle2\">removes @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounds} </span><span class=\"fontstyle2\">less than an hour old. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success} removes one Wound, and a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} removes two. The power may be cast additional times to remove additional Wounds within that hour and as long as the healer has enough @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points}.</span></p>\n<p><span class=\"fontstyle2\">For @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Extras}, the GM must first determine if the ally is still alive (see </span><span class=\"fontstyle2\">@Compendium[swade-core-rules.swade-rules.Healing]{Aftermath}). If so, a successful arcane skill roll returns the ally to action (@Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken} </span><span class=\"fontstyle2\">if it matters).</span></p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Greater Healing (+10):</strong> <em>Greater healing</em> can restore any @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound}, including those more than an hour old.</li>\n<li><strong>Crippling Injuries (+20):</strong> The power can heal a permanent @Compendium[swade-core-rules.swade-tables.Injury Table]{Crippling Injury} (see @Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitation}). This requires an hour of preparation and only one casting is permitted per injury. If it @Compendium[swade-core-rules.swade-rules.Trait Rolls]{fails}, this caster cannot <em>heal </em>that particular injury (but somoene else may try). If successful, the subject is @Compendium[swade-core-rules.swade-rules.Fatigue]{Exhausted} for 24 hours.</li>\n<li><strong>Neutralize Poison or Disease</strong> (+1): A successful&nbsp;<em>healing&nbsp;</em>roll negates any @Compendium[swade-core-rules.swade-rules.Poison]{poison} or @Compendium[swade-core-rules.swade-rules.Disease]{disease}. If the poison or disease has a bonus or penalty associated with it, the modifier applies to the @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{arcane skill} roll as well.</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "3",
+        "damage": "",
+        "range": "Touch",
+        "duration": "Instant",
+        "trapping": "Laying on hands, touching the victim with a holy symbol, prayer",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 1500000,
+      "flags": {
+        "cf": {
+          "id": "temp_p3629imfmia",
+          "path": "Powers",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-powers.nyShL2bXTxRwzBsN"
+        }
+      },
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "wAYRNMc8aOJi3S92",
+      "name": "Light / Darkness",
+      "type": "power",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p><em><span class=\"fontstyle0\">Light </span></em><span class=\"fontstyle2\">creates bright @Compendium[swade-core-rules.swade-rules.Illumination]{illumination} in a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template}. With a raise, the light can be focused into a 5&Prime; (10 yard) beam as well. </span></p>\n<p><em><span class=\"fontstyle0\">Darkness </span></em><span class=\"fontstyle2\">blocks @Compendium[swade-core-rules.swade-rules.Illumination]{illumination}&nbsp;in an area the size of a </span><span class=\"fontstyle2\"><span class=\"fontstyle2\">@Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template}</span>, making the area Dark, or Pitch Darkness with a raise (see </span><span class=\"fontstyle3\">@Compendium[swade-core-rules.swade-rules.Illumination]{Illumination}</span><span class=\"fontstyle2\">).</span></p>\n<p><span class=\"fontstyle2\">If </span><em><span class=\"fontstyle0\">light </span></em><span class=\"fontstyle2\">and </span><em><span class=\"fontstyle0\">darkness </span></em><span class=\"fontstyle2\">overlap, they create a patch of Dim light (-2).</span></p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Mobile (+1):</strong> The caster can move the area of effect up to his @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{arcane skill} die type each @Compendium[swade-core-rules.swade-rules.Actions]{round} after casting, or attach it to an inanimate object when first cast.&nbsp;</li>\n</ul>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "10 minutes",
+        "trapping": "Illusionary torch, sunlight, darkness, thick fogs",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 1600000,
+      "flags": {
+        "cf": {
+          "id": "temp_p3629imfmia",
+          "path": "Powers",
+          "color": "#8c160f"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-powers.jNbTbrOAKFDgVPOq"
+        }
+      },
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ZO2VnpSjAEAS0t5g",
+      "name": "Brawny",
+      "type": "edge",
+      "data": {
+        "description": "<p>See SWADE p.38</p>",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": {
+          "value": "Novice, Strength d6+, Vigor d6+"
+        }
+      },
+      "sort": 100001,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.swade.edges.yERZfQnHTuZ6mJOA"
+        }
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "RiKEjnZU5zY4KKsp",
+      "name": "Jacket (Thick Leather/Tough Hides)",
+      "type": "armor",
+      "data": {
+        "description": "<div class=\"swade-core\"><p>Boiled leather, cuir bouilli, alligator hides.</p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 8,
+        "price": 80,
+        "equippable": true,
+        "equipped": true,
+        "minStr": "d6",
+        "armor": 2,
+        "isNaturalArmor": false,
+        "locations": {
+          "head": false,
+          "torso": true,
+          "arms": true,
+          "legs": false
+        }
+      },
+      "sort": 1700000,
+      "flags": {
+        "cf": {
+          "id": "temp_b73lqj9o88a",
+          "path": "Equipment#/CF_SEP/Armor#/CF_SEP/Medieval & Ancient",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.PZ3gHnMHLxcCK64P"
+        }
+      },
+      "img": "modules/swade-core-rules/assets/art/equipment/armor%20and%20shields/armor-medieval-leather-jacket.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "lk9FIMkg5surIi0z",
+      "name": "Bow",
+      "type": "weapon",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 3,
+        "price": 250,
+        "equippable": true,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "Shooting",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "2d6",
+        "range": "12/24/48",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "d6",
+        "shots": "1",
+        "currentShots": 27,
+        "ammo": "",
+        "autoReload": false
+      },
+      "sort": 1900000,
+      "flags": {
+        "cf": {
+          "id": "temp_if5moq5uap",
+          "path": "Equipment#/CF_SEP/Personal Weapons#/CF_SEP/Ranged Weapons, Medieval",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.xlwClvVf8yhkktQj"
+        }
+      },
+      "img": "modules/swade-core-rules/assets/art/equipment/weapons/ranged-medieval-bow-short.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "O1Ry1pp2LLLLvtIs",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2000000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "4Wn8vLnFFsHjEPGT",
+      "name": "Backpack",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 50,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2100000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.3ZL38ATHmmGnzIvT"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "X29c0yNkMRopQpO2",
+      "name": "Bedroll",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Sleeping bag; winterized</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 4,
+        "price": 25,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2200000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.aRsIlOHPQjGYy9EC"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "gnLVrdZDpUP5Jrb2",
+      "name": "Blanket",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 4,
+        "price": 10,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2300000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.deas3E7gluMHrrXT"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "eG8aHChNx4YYVXkh",
+      "name": "Canteen (waterskin)",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 5,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2400000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.dfP5cH1jBJftnaKq"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "uaKzHEIEtmlgvJM7",
+      "name": "Canteen (waterskin)",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 5,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2500000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.dfP5cH1jBJftnaKq"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "sElUW4nvnPAzPTu6",
+      "name": "Flint and Steel",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 3,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2700000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.1L93bypSSV9q86xQ"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "UJymapFWkF7VMHUx",
+      "name": "Soap",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0.2,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 2900000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.Xa6bB7wFUOGzr0rS"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "63ytaCRxaILRlihB",
+      "name": "Rope, hemp",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"><p>10&rdquo;/20 yards</p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 15,
+        "price": 10,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3000000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.SimhVXNOdvhDunY5"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "BFOeRPK8bmgAEkdr",
+      "name": "Whetstone",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 5,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3100000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.29C8CCNCa2776Ha9"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "EaOihWY9C4e9mQuW",
+      "name": "Quiver",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\"><p>Holds 20 @Compendium[swade-core-rules.swade-equipment.Arrows/Bolts]{Arrows/Bolts}.</p></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3200000,
+      "flags": {
+        "cf": {
+          "id": "temp_7imgk9qze3m",
+          "path": "Equipment#/CF_SEP/Common Gear#/CF_SEP/Adventuring Gear",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.rfge36iLPRgNFfPz"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "bSaT2AJGZGgfuEUI",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3300000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VgM3dgATbrgpTv43",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3400000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "38AT86zafdadamUh",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3500000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "TNUndPLqZkSqR9jA",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3600000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ahorZ6mnVvgjj6tJ",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3700000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "KjgMp4CUAcgOoouJ",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3800000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "AcITZT6OjkJagPaQ",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 3900000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rO5z9v1RmsQqEnBJ",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 4000000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Gc9SKEE61PNzLy8S",
+      "name": "Arrows/Bolts",
+      "type": "gear",
+      "data": {
+        "description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 2,
+        "weight": 0.4,
+        "price": 1,
+        "equippable": true,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 4100000,
+      "flags": {
+        "cf": {
+          "id": "temp_ut5owkdjwhh",
+          "path": "Equipment#/CF_SEP/Ammo",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.cCCykB91UrdiFAFi"
+        }
+      },
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "sHilZasXWXYXK2OI",
+      "name": "Dagger/Knife (melee)",
+      "type": "weapon",
+      "data": {
+        "description": "<div class=\"swade-core\"></div>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 1,
+        "price": 25,
+        "equippable": true,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "Fighting",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {
+            "24m3p44ver": {
+              "name": "Athletics (throwing)",
+              "type": "skill",
+              "rof": null,
+              "skillMod": "",
+              "skillOverride": "Athletics",
+              "shotsUsed": null
+            }
+          }
+        },
+        "damage": "@str+d4",
+        "range": "3/6/12",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "d4",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": false
+      },
+      "sort": 4300000,
+      "flags": {
+        "cf": {
+          "id": "temp_rz46r8sengj",
+          "path": "Equipment#/CF_SEP/Personal Weapons#/CF_SEP/Melee Weapons, Medieval",
+          "color": "#000000"
+        },
+        "core": {
+          "sourceId": "Compendium.swade-core-rules.swade-equipment.5b7HfBOO3D712RGD"
+        }
+      },
+      "img": "modules/swade-core-rules/assets/art/equipment/weapons/Dagger.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "Zs8oVftq3pt1hzap",
+      "name": "Brawny",
+      "type": "armor",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "equipped": true,
+        "minStr": "",
+        "armor": 0,
+        "isNaturalArmor": false,
+        "locations": {
+          "head": false,
+          "torso": true,
+          "arms": false,
+          "legs": false
+        }
+      },
+      "sort": 4400000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/armor.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "B1kKzInlJw9IWico",
+      "name": "Healing",
+      "type": "skill",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 5000000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skill.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "0BO3vonpcnzG0p2g",
+      "name": "Intimidation",
+      "type": "skill",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 6,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 5100000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skill.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "pQsv6Pr5nCXJAR5G",
+      "name": "Mace of Smiting",
+      "type": "weapon",
+      "data": {
+        "description": "<p>+1/+1 to hit/damage<br />+2/+2 to hit/damage vs constructs<br /><br />+1d6 on a raise<br />+2d6 on a raise vs. Constructs</p>",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 4,
+        "price": 0,
+        "equippable": false,
+        "equipped": true,
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "damage": "@str+1d6x",
+        "range": "",
+        "rof": "1",
+        "ap": "0",
+        "minStr": "",
+        "shots": "0",
+        "currentShots": "0",
+        "ammo": "",
+        "autoReload": false
+      },
+      "sort": 5300000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "p33JNumZbRWBDUba",
+      "name": "New Gear",
+      "type": "gear",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equippable": false,
+        "equipped": false,
+        "isVehicular": false,
+        "mods": 1
+      },
+      "sort": 5400000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/gear.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "NbFgszIKUmUby9W8",
+      "name": "Athletics",
+      "type": "skill",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "agility",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 5600000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skill.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1ttCLzmZYsyGC6yX",
+      "name": "Common Knowledge",
+      "type": "skill",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "smarts",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 4,
+          "modifier": -1
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 5700000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skill.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "kosUEw1DgcOp44oq",
+      "name": "Small Shield",
+      "type": "shield",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "quantity": 1,
+        "weight": 4,
+        "price": 50,
+        "equippable": false,
+        "equipped": true,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "minStr": "d4",
+        "parry": 1,
+        "cover": 1
+      },
+      "sort": 5800000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/shield.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "24fPVQ4Ehf9UotlP",
+      "name": "Power Points",
+      "type": "edge",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "isArcaneBackground": false,
+        "requirements": {
+          "value": ""
+        }
+      },
+      "sort": 5900000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/edge.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1ij76H1ubVfECydT",
+      "name": "Faith",
+      "type": "skill",
+      "data": {
+        "description": "",
+        "notes": "",
+        "additionalStats": {},
+        "attribute": "spirit",
+        "isCoreSkill": false,
+        "die": {
+          "sides": 8,
+          "modifier": "0"
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "sort": 6000000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/skill.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "icX962UDnv11ywKT",
+      "name": "Smite",
+      "type": "power",
+      "data": {
+        "description": "<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">This power is cast on a weapon of some sort. If it&rsquo;s a ranged weapon, it affects one entire magazine, 20 bolts, shells, or arrows, or one full &ldquo;load&rdquo; of ammunition (the GM determines the exact quantity for unusual weapons). While the power is in effect, the weapon&rsquo;s&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\"><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"CFL4VZDpeqKPzrqo\">damage</a></span>&nbsp;is increased by +2, or +4 with a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">raise</a>.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><strong style=\"box-sizing: border-box; user-select: text;\">Modifiers</strong></p>\n<ul style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'EB Garamond', serif;\">\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Additional Recipients (+1):</strong>&nbsp;The power may affect more than one target for 1 additional&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"I3euc03IC9TAW83S\">Power Point</a>&nbsp;each.</li>\n</ul>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "5",
+        "trapping": "",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 6100000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "7JCEXkm7k3xZDkZ7",
+      "name": "Protection",
+      "type": "power",
+      "data": {
+        "description": "<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><em style=\"box-sizing: border-box; user-select: text;\">Protection&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">creates a field of energy or armor around a character, giving him 2 points of&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"jLuL7VxHiVRDqOHO\">Armor</a></span><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">, or +4 with a raise.<br style=\"box-sizing: border-box; user-select: text;\" /></span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">Whether the&nbsp;</span><em style=\"box-sizing: border-box; user-select: text;\">protection&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">is visible or not depends on the&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"00RW2XCBWen4Ouzf\">Trapping</a></span><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">&mdash;this is entirely up to the caster.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><em style=\"box-sizing: border-box; user-select: text;\">Protection&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">stacks with all other armor, natural or worn, and is negated by&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"qCSFAFystY0tUi2k\">AP</a>&nbsp;as&nbsp;</span><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">usual.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><strong style=\"box-sizing: border-box; user-select: text;\">Modifiers</strong></p>\n<ul style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'EB Garamond', serif;\">\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Additional Recipients (+1):</strong>&nbsp;The power may affect additional targets at a cost of 1&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"I3euc03IC9TAW83S\">Power Point</a>&nbsp;each.</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">More Armor (+1):</strong>&nbsp;Success grants 4 points of&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"jLuL7VxHiVRDqOHO\">Armor</a>&nbsp;(+6 with a raise).</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Toughness (+1):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Armor&nbsp;</em>provides Toughness instead of&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"jLuL7VxHiVRDqOHO\">Armor</a>&nbsp;and is not affected by&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"qCSFAFystY0tUi2k\">AP</a> (magical or otherwise).</li>\n</ul>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "1",
+        "damage": "",
+        "range": "Sm",
+        "duration": "5",
+        "trapping": "",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 6200000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "JrTq0irFB9LC8DWo",
+      "name": "Sloth/Speed",
+      "type": "power",
+      "data": {
+        "description": "<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><em style=\"box-sizing: border-box; user-select: text;\">Sloth&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">lessens celerity and coordination while&nbsp;</span><em style=\"box-sizing: border-box; user-select: text;\">speed&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">increases it. It halves the target&rsquo;s total&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"Xjf2D9U56qTZjBy2\">movement</a>&nbsp;each&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"nCyMogSOG0nWNDTb\">round</a>&nbsp;(round up). With a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">raise</a>, movement is also an&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"nCyMogSOG0nWNDTb\">action</a>. The target automatically attempts to shake off the effects of&nbsp;</span><em style=\"box-sizing: border-box; user-select: text;\">sloth&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">at the end of each of his next turns by making a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"0Dc7wi6IydBRlBtJ\">Spirit</a>&nbsp;roll.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\"><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">Success</a>&nbsp;with&nbsp;</span><em style=\"box-sizing: border-box; user-select: text;\">speed&nbsp;</em><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">doubles the target&rsquo;s&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"Xjf2D9U56qTZjBy2\">movement</a>&nbsp;(basic Pace and&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"Xjf2D9U56qTZjBy2\">running</a></span><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">). With a&nbsp;</span><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">&nbsp;raise</a>&nbsp;the character also ignores the -2 running penalty.</p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><strong style=\"box-sizing: border-box; user-select: text;\">Modifiers</strong></p>\n<ul style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'EB Garamond', serif;\">\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Additional Recipients (+1):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Speed&nbsp;</em>only. The power may affect more than one target for 1 additional&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"I3euc03IC9TAW83S\">Power Point</a>&nbsp;each.</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Area of Effect (+2/+3):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Sloth&nbsp;</em>only. For +2 points the power affects everyone in a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"xxEcWExtn36PPxg0\">Medium Blast Template</a>. For +3 poitns the area of efect is increased to a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"xxEcWExtn36PPxg0\">Large Blast Template</a>.</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Quickness (+2):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Speed&nbsp;</em>only. The character's total&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"jqSZFF6nkgnFPVRr\">Multi-Action</a>&nbsp;penalty&nbsp;each turn is reduced by 2 (she can do two actions at no penalty, or three at -2 each).</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Strong (+1):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Sloth</em>&nbsp;only. The&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"0Dc7wi6IydBRlBtJ\">Spirit</a>&nbsp;roll to shake off&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">sloth's&nbsp;</em>effects is made at -2.</li>\n</ul>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Seasoned",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "Instant(slot);5",
+        "trapping": "",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 6300000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "v3scrw7BX6TnMWVd",
+      "name": "Boost/Lower Trait",
+      "type": "power",
+      "data": {
+        "description": "<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">This power allows a character to increase or decrease a target&rsquo;s&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">Trait</a></span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">&nbsp;(attribute or skill)</span>.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><em style=\"box-sizing: border-box; user-select: text;\">Boosting&nbsp;</em><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">an ally&rsquo;s&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">Trait</a>&nbsp;increases the selected Trait one die type, or two with a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">raise</a>, for five rounds.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><em style=\"box-sizing: border-box; user-select: text;\">Lowering&nbsp;</em><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">an enemy&rsquo;s&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">Trait</a></span>&nbsp;has a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"WaqU65ZxvBkQ0pKc\">Duration</a>&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">of Instant and lowers the selected attribute&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">or skill a die type with&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">success</a>, or two&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">with a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">raise</a>&nbsp;(to a minimum of d4). A victim&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">automatically tries to shake off the effect&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">with a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"0Dc7wi6IydBRlBtJ\">Spirit</a>&nbsp;roll as a&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"nCyMogSOG0nWNDTb\">free action</a>&nbsp;at the end&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">of his following turns.&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Success improves the&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">effect one die type, and a&nbsp;</span>raise removes the effect entirely.</p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Additional castings don&rsquo;t stack on a single&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"gLwCSlRUNAMQOJUi\">Trait</a></span>&nbsp;(take the highest), but may affect&nbsp;</span><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">different&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Traits.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 16px; color: #191813; font-family: 'EB Garamond', serif;\"><strong style=\"box-sizing: border-box; user-select: text;\">Modifiers</strong></p>\n<ul style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'EB Garamond', serif;\">\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Additional Recipients (+1):</strong>&nbsp;The power may affect more than one target for 1 additional&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"I3euc03IC9TAW83S\">Power Point</a>&nbsp;each.</li>\n<li style=\"box-sizing: border-box; user-select: text; font-size: 16px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Strong (+1):</strong>&nbsp;<em style=\"box-sizing: border-box; user-select: text;\">Lower Trait</em>&nbsp;only. The&nbsp;<a class=\"entity-link\" style=\"box-sizing: border-box; user-select: text; background-color: transparent; padding: 0px; color: var(--red); text-decoration-line: underline; border: initial none initial;\" draggable=\"true\" data-pack=\"swade-core-rules.swade-rules\" data-id=\"0Dc7wi6IydBRlBtJ\">Spirit</a>&nbsp;roll to shake off the effect is made at -2.</li>\n</ul>",
+        "notes": "",
+        "additionalStats": {},
+        "equippable": false,
+        "equipped": false,
+        "actions": {
+          "skill": "",
+          "skillMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "rank": "Novice",
+        "pp": "2",
+        "damage": "",
+        "range": "Sm",
+        "duration": "5(boost);Instant",
+        "trapping": "",
+        "arcane": "",
+        "skill": "",
+        "modifiers": []
+      },
+      "sort": 6400000,
+      "flags": {},
+      "img": "systems/swade/assets/icons/power.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "exportSource": {
+      "world": "drakonheim",
+      "system": "swade",
+      "coreVersion": "0.8.8",
+      "systemVersion": "0.19.5"
+    }
+  }
+}
