@@ -1,4 +1,4 @@
-# FoundrySwadeToSwade
+# FoundrySwadeToSwadePDF
 Utility to convert Foundry Swade character .json files to Swade character sheet pdf files.
 Code is written in python version 3.7.3, and runs on Raspberry Pi OS version 10 (buster).
 
