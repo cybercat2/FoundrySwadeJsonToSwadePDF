@@ -4,11 +4,14 @@ Code is written in python version 3.7.3, and runs on Raspberry Pi OS version 10 
 Also runs in Win10, python 3.7.3, with pip pdfrw addon.
 
 Current revision - Foundry2pdf is 0.3 beta. 
+
 Json files are exported from Foundry 8.8. 
+
 Game subsystem is Peginc Swade 0.19.5.
 
 Known bugs - 
-  die modifiers aren't handling 0 mod correctly. Will be fixed in 0.2 (soon). DONE v0.27/25/21
+
+  Die modifiers aren't handling 0 mod correctly. Will be fixed in 0.2 (soon). DONE v0.27/25/21
 
   PDF file is giveaway from Peginc, and I'm only Annotatiing them, not changing them, but i probably should get permission to use, or workaround (version 0.3.1).
 
